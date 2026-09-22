@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T19:58:27.567Z",
+  "generated_at": "2026-09-22T22:07:40.288Z",
   "items": {
     "math:10": {
       "kind": "math",
@@ -22,6 +22,17 @@
       "path": "math/0008-vector-norms-and-linear-independence",
       "first_solved_at": "2026-09-22T19:58:26.573Z",
       "last_pushed_at": "2026-09-22T19:58:26.573Z"
+    },
+    "math:1": {
+      "kind": "math",
+      "id": "1",
+      "title": "Derivatives and Gradients",
+      "difficulty": "easy",
+      "category": "Calculus for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/1",
+      "path": "math/0001-derivatives-and-gradients",
+      "first_solved_at": "2026-09-22T22:07:39.717Z",
+      "last_pushed_at": "2026-09-22T22:07:39.717Z"
     }
   }
 }
