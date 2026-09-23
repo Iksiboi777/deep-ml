@@ -2,11 +2,17 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**4** solved · 0 problems · 0 labs · 4 math
+**5** solved · 1 problems · 0 labs · 4 math
 
 ![Coverage](./coverage.svg)
 
 [**Browse the interactive portfolio**](https://Iksiboi777.github.io/deep-ml/) to replay this filling in over time.
+
+## Problems
+
+| | Difficulty | Solved | |
+| --- | --- | --- | --- |
+| [Derivative of a Polynomial](https://www.deep-ml.com/problems/116) | easy | 2026-09-23 | [solution](problems/0116-derivative-of-a-polynomial) |
 
 ## Math
 
