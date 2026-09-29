@@ -13,23 +13,54 @@ def quotient_rule_derivative(g_coeffs: list, h_coeffs: list, x: float) -> float:
         The derivative value f'(x)
     """
 
-    def poly_derive(coeffs, x):
-        cz = []
-        n = len(coeffs) - 1
+    # def poly_derive(coeffs, x):
+    #     cz = []
+    #     n = len(coeffs) - 1
 
-        for c in coeffs[:-1]:           
-            cz.append(c*n*(x**(n-1)))
-            n -= 1
-        return sum(cz)
+    #     for c in coeffs[:-1]:           
+    #         cz.append(c*n*(x**(n-1)))
+    #         n -= 1
+    #     return sum(cz)
 
-    g_der = poly_derive(g_coeffs, x)
-    print("G_der: ", g_der)
-    h_der = poly_derive(h_coeffs, x)
-    print("H_der: ", h_der)
+    # g_der = poly_derive(g_coeffs, x)
+    # print("G_der: ", g_der)
+    # h_der = poly_derive(h_coeffs, x)
+    # print("H_der: ", h_der)
 
-    g = sum([c*x**i for i, c in enumerate(reversed(g_coeffs))])
-    print("G: ", g)
-    h = sum([c*x**i for i, c in enumerate(reversed(h_coeffs))])
-    print("H: ", h)
+    # g = sum([c*x**i for i, c in enumerate(reversed(g_coeffs))])
+    # print("G: ", g)
+    # h = sum([c*x**i for i, c in enumerate(reversed(h_coeffs))])
+    # print("H: ", h)
     
-    return (g_der*h - g*h_der)/(h**2)
+    # return (g_der*h - g*h_der)/(h**2)
+
+    def horner(coeffs, x):
+        p, dp = 0.0, 0.0
+        for c in coeffs:
+            dp = dp * x + p   # derivative, updated from the *previous* p
+            p = p * x + c     # value
+        return p, dp
+
+    g, g_der = horner(g_coeffs, x)
+    h, h_der = horner(h_coeffs, x)
+    return (g_der * h - g * h_der) / h**2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
