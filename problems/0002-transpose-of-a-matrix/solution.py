@@ -12,4 +12,4 @@ def transpose_matrix(a: list[list[int|float]]) -> list[list[int|float]]:
     """
     # Your code here
     return list(zip(*a))
-    return (np.array(a).T).tolist()
+    # return (np.array(a).T).tolist()
