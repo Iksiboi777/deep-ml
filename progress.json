@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:56:19.233Z",
+  "generated_at": "2026-09-30T19:29:09.724Z",
   "items": {
     "math:10": {
       "kind": "math",
@@ -233,6 +233,19 @@
       "path": "math/0033-expectation-and-variance-algebra",
       "first_solved_at": "2026-09-30T18:56:18.599Z",
       "last_pushed_at": "2026-09-30T18:56:18.599Z"
+    },
+    "problem:78": {
+      "kind": "problem",
+      "id": "78",
+      "title": "Descriptive Statistics Calculator",
+      "difficulty": "easy",
+      "category": "Statistics",
+      "url": "https://www.deep-ml.com/problems/78",
+      "path": "problems/0078-descriptive-statistics-calculator",
+      "first_solved_at": "2026-09-30T19:29:08.776Z",
+      "last_pushed_at": "2026-09-30T19:29:08.776Z",
+      "language": "python",
+      "lines": 38
     }
   }
 }
