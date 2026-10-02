@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T21:38:56.370Z",
+  "generated_at": "2026-10-02T20:27:35.318Z",
   "items": {
     "math:10": {
       "kind": "math",
@@ -377,6 +377,19 @@
       "path": "math/0083-type-i-and-type-ii-error-power-and-the-uniform-null",
       "first_solved_at": "2026-10-01T21:38:55.352Z",
       "last_pushed_at": "2026-10-01T21:38:55.352Z"
+    },
+    "problem:331": {
+      "kind": "problem",
+      "id": "331",
+      "title": "Check Linear Independence of Vectors",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/331",
+      "path": "problems/0331-check-linear-independence-of-vectors",
+      "first_solved_at": "2026-10-02T20:27:34.772Z",
+      "last_pushed_at": "2026-10-02T20:27:34.772Z",
+      "language": "python",
+      "lines": 51
     }
   }
 }
